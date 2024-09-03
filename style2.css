@@ -1,0 +1,204 @@
+:root {
+    --primary-color: #fed001;
+}
+
+html {
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p,
+a {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.3rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.uper {
+    text-transform: uppercase;
+}
+
+.wrapper-container {
+    padding: 1px;
+}
+
+.btn-over {
+    margin: 3.5rem 0;
+}
+
+.wrapperContaineir-dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+
+
+}
+
+.wrapperContaineir-dark-fixed {
+    position: sticky;
+    top: 0;  
+}
+.container-pedd-top{
+    padding-top: 12rem;
+}
+.wrapperContaineir-light {
+    background-color: #fafafa;
+
+}
+
+.wrapperContaineir-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer-hero {
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+
+}
+
+.title-section {
+    margin: 6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+
+}
+
+.header_navigation ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+
+}
+
+.header_navigation a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border: 2px solid;
+    padding: 0.50em 1em;
+    border-radius: 10%;
+
+}
+
+.header_navigation a:hover {
+    background-color: rgb(18, 17, 17);
+}
+
+.wrapperContainer-hero {
+    background-image: linear-gradient(white, yellow);
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.heroBanner a:hover {
+    background-color: rgb(236, 229, 13);
+}
+
+.hero-title {
+    margin-bottom: 5rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.curso_card {
+    /* border: 1px solid #787474; */
+    flex: 1;
+    /*   border-radius: 10px;
+    overflow: hidden; */
+}
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+
+
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    line-height: 2rem;
+}
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.cursos_card_content {
+    padding: 1rem;
+}
+
+.cursos_card_content {
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 8px 8px;
+    border-top: transparent;
+}
+
+.container-escola {
+    display: flex;
+    gap: 8rem;
+    /* text-align: center; */
+    padding-top: 6rem;
+}
+
+.container-escola h2 {
+    margin: 5.5rem 0 7rem;
+}
+
+.container-escola {
+    line-height: 2.5rem;
+}
+
+.container-contatos {
+    text-align: center;
+}
+
+.container-contatos address {
+    text-align: right;
+    line-height: 0.5rem;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
